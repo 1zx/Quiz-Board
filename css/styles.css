@@ -1,8 +1,16 @@
 .panel{
-    background-color: rgb(128, 0, 0);
-
+    background-color: rgb(128, 128, 128);
     background-size: contain;
     position: relative;
     text-align: center;
     color: black;
+}
+.jumbotron{
+  background-image: url(../images/board.jpg);
+  background-attachment: local;
+
+}
+h1{
+  text-align: center;
+
 }
