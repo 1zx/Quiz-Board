@@ -17,6 +17,7 @@ By Charles Gateru.
 ## How it works
 
 * if you choose the correct answer it will be shown on the after_submit after clicking the submit button
+* Also if you enter the wrong answers you get a zero
 
 
 ## License.
