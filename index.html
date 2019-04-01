@@ -13,26 +13,56 @@
 <body>
   <div class="container">
 
-    <div class="jumbotron">
-      <div class="panel panel-info">
+      <div class="jumbotron">
 
-        <h1>Quiz-Board</h1>
-      </div>
-      <br>
-      <h2>Answer the following questions.</h2>
+        <div class="panel panel-info">
 
-      <div class="well">
-        <form id="quiz" name="quiz">
-
-           <div class="panel-group">
-          <div class="bg-info">
-            <p><strong>1.Who was the first programmer?</strong></p>
-
-            <input type="radio" id="mc" name="question1" value="Man">Man<br>
-            <input type="radio" id="mc" name="question1" value="Woman">Woman<br>
-            <input type="radio" id="mc" name="question1" value="Aliens">Aliens<br>
-          </div>
+          <h1>Quiz-Board</h1>
         </div>
+        <br>
+        <h2>Answer the following questions.</h2>
+
+        <div class="well">
+          <form id="quiz" name="quiz">
+
+
+            <div class="bg-info">
+              <div class="panel-group">
+                <p><strong>1.The external JavaScript file must contain the script tag.</strong></p>
+
+                <input type="radio" id="mc" name="question1" value="True">True<br>
+                <input type="radio" id="mc" name="question1" value="Maybe">Maybe<br>
+                <input type="radio" id="mc" name="question1" value="False">False<br>
+
+                <br>
+                <p><strong>2.Which of the following is a variable?</strong></p>
+
+                <input type="radio" id="mc" name="question2" value="ToLOwerCase">ToLOwerCAse<br>
+                <input type="radio" id="mc" name="question2" value="toLowerCase">toLowerCase<br>
+                <input type="radio" id="mc" name="question2" value="FirstName">FirstName<br>
+
+                <br>
+                <p><strong>3.Which of the following is not a programming language?</strong></p>
+
+                <input type="radio" id="mc" name="question3" value="JAVA">JAVA<br>
+                <input type="radio" id="mc" name="question3" value="C++">C++<br>
+                <input type="radio" id="mc" name="question3" value="Windows">Windows<br>
+                <br>
+
+                <input id="button" type="button" value="Submit" onclick="check()">
+
+              </form>
+
+              <div id="after_submit">
+
+                <p id="message"></p>
+                <p id="number_correct"></p>
+
+              </div>
+
+              </div>
+            </div>
+
 
 
       </div>
