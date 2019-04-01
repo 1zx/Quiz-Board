@@ -17,7 +17,7 @@ if (question3 == "Windows") {
  correct++;
 }
 
-var messages = ["Great job!", "That's just okay", "Nonsense!"];
+var messages = ["Great job!", "That's just okay", "Fair!"];
 
 var range;
 
