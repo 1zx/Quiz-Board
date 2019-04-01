@@ -42,7 +42,23 @@ h1{
 }
 .intro{
   font-style: italic;
+  color: red;
+
 }
 img{
 margin-left: 400px;
 }
+@media screen and (min-width: 480px) and (max-width: 767px) {
+   .image {
+       width: 49.9999%;
+       margin: 6px 0;
+
+   }
+}
+@media screen and (min-width: 768px) {
+ .image {
+ }
+ .column {
+   width: 100%;
+
+ }
