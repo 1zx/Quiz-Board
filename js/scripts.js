@@ -5,7 +5,7 @@ function check(){
  var correct=0;
 
 
- if (question1 == "FALSE") {
+ if (question1 == "False") {
 correct++;
 }
 
@@ -13,6 +13,28 @@ if (question2 == "toLowerCase") {
  correct++;
 }
 
-if (question3 == "WINDOWS") {
+if (question3 == "Windows") {
  correct++;
+}
+
+var messages = ["Great job!", "That's just okay", "Nonsense!"];
+
+var range;
+
+ if (correct < 1)
+ {
+   range = 2;
+ }
+
+ if (correct > 0 && correct < 3){
+   range = 1;
+ }
+
+ if (correct > 2){
+    range = 0;
+  }
+
+ document.getElementById("message").innerHTML= messages[range];
+document.getElementById("number_correct").innerHTML = "You got " + correct + " correct";
+
 }
