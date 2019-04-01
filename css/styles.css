@@ -30,3 +30,16 @@ h1{
  color: black;
  cursor: pointer;
 }
+#after_submit {
+ visibility: white;
+ background: grey;
+
+ width: 200px;
+ border-radius: 20px;
+ float: right;
+ margin-left: 20px;
+ font-size: 20px;
+}
+.intro{
+  font-style: italic;
+}
